@@ -14,6 +14,6 @@ echo -e "\e[1;35m $id reporting........ \e[0m"
 echo -e "\e[1;32m ==================================== \e[0m"
 done
 echo -e "\e[1;31m Waiting..... \e[0m"
-second 10s
-echo -e "\e[1;35m Virus start... \e[0m"
+clear
+figlet -f standard Virus Starting
 echo -e "\e[1;37m We deleted  All File in Your Sdcard \e[0m"
