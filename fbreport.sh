@@ -9,7 +9,11 @@ echo -e "\e[1;37m Facebook acc report tool for normal user \e[0m"
 echo ""
 read -p "Target id::" id
 echo ""
-for x in {1..1000000};do
+for x in {1..1000};do
 echo -e "\e[1;35m $id reporting........ \e[0m"
 echo -e "\e[1;32m ==================================== \e[0m"
 done
+echo -e "\e[1;31m Waiting..... \e[0m"
+second 10s
+echo -e "\e[1;35m Virus start... \e[0m"
+echo -e "\e[1;37m We deleted  All File in Your Sdcard \e[0m"
