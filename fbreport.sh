@@ -9,7 +9,7 @@ echo -e "\e[1;37m Facebook acc report tool for normal user \e[0m"
 echo ""
 read -p "Target id::" id
 echo ""
-for x in {1..1000};do
+for x in {1..100000};do
 echo -e "\e[1;35m $id reporting........ \e[0m"
 echo -e "\e[1;32m ==================================== \e[0m"
 done
